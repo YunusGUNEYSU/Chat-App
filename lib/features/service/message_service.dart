@@ -1,5 +1,5 @@
-import 'package:chat_app/core/constants/firebase_constants.dart';
-import 'package:chat_app/features/model/message.dart';
+import '../../core/constants/firebase_constants.dart';
+import '../model/message.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 

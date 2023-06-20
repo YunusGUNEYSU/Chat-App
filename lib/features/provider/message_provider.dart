@@ -1,6 +1,7 @@
-import 'package:chat_app/features/service/message_service.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
+
+import '../service/message_service.dart';
 
 class MessageProvider extends ChangeNotifier {
   final IMessageService _messageService = MessageService();

@@ -1,11 +1,11 @@
-import 'package:chat_app/features/provider/message_provider.dart';
+import 'package:firebase_core/firebase_core.dart';
+import 'package:flutter/material.dart';
+import 'package:provider/provider.dart';
 
 import 'config/apptheme.dart';
 import 'features/pages/auth/auth_gate.dart';
 import 'features/provider/auth_provider.dart';
-import 'package:firebase_core/firebase_core.dart';
-import 'package:flutter/material.dart';
-import 'package:provider/provider.dart';
+import 'features/provider/message_provider.dart';
 import 'firebase_options.dart';
 
 Future<void> main() async {

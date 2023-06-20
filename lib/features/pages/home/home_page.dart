@@ -1,11 +1,10 @@
-import 'package:chat_app/core/constants/firebase_constants.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_auth/firebase_auth.dart';
-
-import '../../provider/auth_provider.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
+import '../../../core/constants/firebase_constants.dart';
+import '../../provider/auth_provider.dart';
 import 'chat/chat_page.dart';
 
 class HomePage extends StatefulWidget {

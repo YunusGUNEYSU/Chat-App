@@ -1,6 +1,7 @@
-import 'package:chat_app/core/constants/firebase_constants.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_auth/firebase_auth.dart';
+
+import '../../core/constants/firebase_constants.dart';
 
 abstract class IAuthService {
   final FirebaseAuth _firebaseAuth = FirebaseAuth.instance;
